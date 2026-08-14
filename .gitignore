@@ -17,3 +17,8 @@ data/*.tmp
 generated/*.stl
 generated/*_report.json
 generated/*_preview.png
+
+# Blender frame dumps. The encoded MP4 is kept.
+docs/preview-video/frames/
+docs/preview-video/*.ply
+docs/preview-video/*.blend1
