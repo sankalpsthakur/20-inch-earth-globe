@@ -1,0 +1,82 @@
+[
+  {
+    "name": "20in proper master",
+    "lon_segments": 2880,
+    "lat_rings": 1440,
+    "vertices": 4147202,
+    "faces": 8294400,
+    "equator_spacing_mm": 0.5541420375081997,
+    "scale_factor": 1.031583688501356,
+    "dimensions_mm": [
+      499.0101013183594,
+      507.29083251953125,
+      507.9999694824219
+    ],
+    "min_center_radius_mm": 237.68046997922318,
+    "max_center_radius_mm": 262.0222513608381,
+    "radial_thickness_diameter_bound_mm": 475.36093995844635,
+    "min_profile_curvature_radius_mm": 0.0005972863502580439,
+    "curvature_radius_percentiles_mm": {
+      "min": 0.0005972863502580439,
+      "p0_01": 0.001614644763302751,
+      "p0_1": 0.02076598498031826,
+      "p1": 0.14308959314694733,
+      "p5": 0.42539674264842864,
+      "p50": 2.7605109786032753
+    },
+    "min_parallel_curve": {
+      "radius_mm": 0.0005972863502580439,
+      "lat": 89.9375,
+      "lon": 68.1875,
+      "source_elevation_m": -4248.5,
+      "unscaled_relief_mm": -4.724692344665527
+    },
+    "min_meridian_curve": {
+      "radius_mm": 0.5236255793635292,
+      "lat": 32.6875,
+      "lon": 141.8125,
+      "source_elevation_m": -7295.8125,
+      "unscaled_relief_mm": -8.559151649475098
+    }
+  },
+  {
+    "name": "20in proper zbotic upload",
+    "lon_segments": 1320,
+    "lat_rings": 660,
+    "vertices": 871202,
+    "faces": 1742400,
+    "equator_spacing_mm": 1.2090371727451628,
+    "scale_factor": 1.0323520430173145,
+    "dimensions_mm": [
+      496.7434387207031,
+      507.32489013671875,
+      508.0000305175781
+    ],
+    "min_center_radius_mm": 237.857514164555,
+    "max_center_radius_mm": 262.2174470081821,
+    "radial_thickness_diameter_bound_mm": 475.71502832911,
+    "min_profile_curvature_radius_mm": 0.0027716047273790806,
+    "curvature_radius_percentiles_mm": {
+      "min": 0.0027716047273790806,
+      "p0_01": 0.006780947064177345,
+      "p0_1": 0.03372489670596749,
+      "p1": 0.22486621744730573,
+      "p5": 0.7981720390913306,
+      "p50": 7.449899716255678
+    },
+    "min_parallel_curve": {
+      "radius_mm": 0.0027716047273790806,
+      "lat": 89.86363983154297,
+      "lon": 153.68182373046875,
+      "source_elevation_m": -4243.57958984375,
+      "unscaled_relief_mm": -5.28556489944458
+    },
+    "min_meridian_curve": {
+      "radius_mm": 1.1506822003362815,
+      "lat": -11.318181991577148,
+      "lon": 162.68182373046875,
+      "source_elevation_m": -8289.4375,
+      "unscaled_relief_mm": -9.264256477355957
+    }
+  }
+]

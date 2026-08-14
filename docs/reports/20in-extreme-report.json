@@ -1,0 +1,74 @@
+{
+  "diameter_inches": 20.0,
+  "target_diameter_mm": 508.0,
+  "outer_radius_mm": 254.0,
+  "base_radius_mm": 246.27926349639893,
+  "mesh_resolution": {
+    "longitude_segments": 2160,
+    "latitude_rings": 1080,
+    "equator_vertex_spacing_mm": 0.7388560500109328
+  },
+  "relief_scaling": {
+    "mountain_relief_mm_at_8849m": 8.2,
+    "trench_relief_mm_at_10935m": -6.6,
+    "minor_grid_height_mm": 0.45,
+    "major_grid_height_mm": 1.05
+  },
+  "source": {
+    "dataset": "NOAA ETOPO 2022 60 arc-second bed elevation NetCDF",
+    "url": "https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/60s/60s_bed_elev_netcdf/ETOPO_2022_v1_60s_N90W180_bed.nc",
+    "vertical_units": "meters relative to EGM2008 geoid",
+    "resampling": "average for land/water classification, max for mountains, min for trenches"
+  },
+  "print_scale": {
+    "mode": "uniform scale so the STL bounding box longest dimension is exactly 20 inches",
+    "pre_scale_dimensions_mm": [
+      489.87384033203125,
+      496.956787109375,
+      497.35205078125
+    ],
+    "pre_scale_longest_dimension_mm": 497.35205078125,
+    "uniform_scale_factor": 1.0214092798089884
+  },
+  "source_elevation_stats_m": {
+    "feature_min": -10752.08203125,
+    "feature_max": 8157.3564453125,
+    "average_min": -10082.0205078125,
+    "average_max": 6258.6552734375,
+    "block_min_min": -10752.08203125,
+    "block_max_max": 8157.3564453125
+  },
+  "print_relief_stats_mm": {
+    "surface_relief_min": -6.531330585479736,
+    "surface_relief_max": 7.720736503601074,
+    "surface_relief_range": 14.252067565917969,
+    "final_scaled_surface_relief_range": 14.557193756103516
+  },
+  "validation": {
+    "vertices": 2332802,
+    "faces": 4665600,
+    "unique_edges": 6998400,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_mm3": 65069593.393012166,
+    "bounds_min_mm": [
+      -248.11642456054688,
+      -254.6327667236328,
+      -255.4835968017578
+    ],
+    "bounds_max_mm": [
+      252.24525451660156,
+      252.9635009765625,
+      252.51641845703125
+    ],
+    "dimensions_mm": [
+      500.3616943359375,
+      507.59625244140625,
+      508.0
+    ],
+    "max_radius_mm": 259.4379734189402,
+    "min_radius_mm": 244.8807727039944,
+    "watertight": true
+  }
+}

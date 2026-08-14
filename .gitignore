@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local copies of huge binaries. Download them from GitHub Releases.
+stl/*.stl
+
+# Regenerated source rasters / NOAA NetCDF
+data/*.nc
+data/*.dat
+data/*.hdr
+data/*.aux.xml
+data/*.npy
+data/*.tmp
+generated/*.stl
+generated/*_report.json
+generated/*_preview.png
