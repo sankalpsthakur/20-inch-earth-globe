@@ -18,7 +18,10 @@ generated/*.stl
 generated/*_report.json
 generated/*_preview.png
 
-# Blender frame dumps. The encoded MP4 is kept.
+# One-off Twitter/preview render pipeline. Keep local.
+scripts/build_preview_mesh.py
+scripts/render_globe_clip.py
 docs/preview-video/frames/
 docs/preview-video/*.ply
+docs/preview-video/*.blend
 docs/preview-video/*.blend1
