@@ -21,6 +21,8 @@ generated/*_preview.png
 # One-off Twitter/preview render pipeline. Keep local.
 scripts/build_preview_mesh.py
 scripts/render_globe_clip.py
+scripts/sweep_headings.py
+docs/preview-video/heading-sweep/
 docs/preview-video/frames/
 docs/preview-video/*.ply
 docs/preview-video/*.blend
