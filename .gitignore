@@ -23,7 +23,9 @@ scripts/build_preview_mesh.py
 scripts/render_globe_clip.py
 scripts/sweep_headings.py
 docs/preview-video/heading-sweep/
+docs/preview-video/check/
 docs/preview-video/frames/
 docs/preview-video/*.ply
 docs/preview-video/*.blend
 docs/preview-video/*.blend1
+docs/preview-video/*.mp4
